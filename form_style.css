@@ -17,4 +17,11 @@ input[name=Country]{
 	size:12
 }
 
+.message{
+	width:50%;
+	border:15px solid green;
+	padding:50px;
+	margin:20px;
+}
+
 
