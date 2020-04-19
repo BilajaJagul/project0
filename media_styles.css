@@ -1,15 +1,15 @@
-﻿.first_box, .second_box, .sub-box {
+﻿#first_box, #second_box, #sub-box {
 	color: blue;
 }
 
-.first_box {
+#first_box {
 	width: 70%;
 }
 
-.second_box {
+#second_box {
 	background-color: red;
 }
 
-.sub-box {
+#sub-box {
 	color: green;
 }
