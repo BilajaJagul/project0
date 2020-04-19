@@ -1,0 +1,23 @@
+%message{
+	color:blue
+}
+
+$width_box=70%
+
+.first_box{
+	@extend %message
+	width=$width_box
+}
+
+.second_box{
+	@extend %message
+	background-color:red;
+}
+
+.sub-box{
+	@extend %message
+	color:green;
+}
+
+
+

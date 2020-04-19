@@ -1,0 +1,15 @@
+﻿.first_box, .second_box, .sub-box {
+	color: blue;
+}
+
+.first_box {
+	width: 70%;
+}
+
+.second_box {
+	background-color: red;
+}
+
+.sub-box {
+	color: green;
+}
