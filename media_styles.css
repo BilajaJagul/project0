@@ -4,7 +4,7 @@
 
 #first_box {
 	margin: 100px;
-	width: 70%;
+	width: 30%;
 }
 
 #second_box {
@@ -15,7 +15,5 @@
 	color: green;
 }
 
-img{
-	width: 70%;
-}
+
 
