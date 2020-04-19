@@ -1,0 +1,20 @@
+input[type=text]{
+	color:Blue;
+	background-color:grey;
+	font-family:Arial;
+}
+
+input[type=radio]{
+	color:Red;
+}
+
+input[name=Country]{
+	color:Green;
+}
+
+#submit{
+	color:Blue
+	size:12
+}
+
+
