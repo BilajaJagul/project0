@@ -1,40 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-                table{
-                        border:3px solid black;
-                        border-collapse:collapse;
-                        width:50%;
-                }
-                td, th{
-                        border:1px solid black;
-                        padding:5px;
-                }
-        </style>
         <title>My Webpage</title>
     </head>
     <body>
-            <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-                            <table>
-                                    <tr>
-                                            <th>Name</th>
-                                            <th>Color</th>
-                                    </tr>
-                                    <tr>
-                                            <td>Balaji</td>
-                                            <td>Gan</td>
-                                    </tr>
-                                    <tr>
-                                            <td>Dowload</td>
-                                            <td>Pop Pop</td>
-                                    </tr>
-                            </table>
+            <form>
+                    <input name="name" type="text" placeholder="name">
+                    <input name="secret code" type="password">
+                    <div>Favourite Color?
+                            <input name="color" type="radio" value="red">Red
+                            <input name="color" type="radio" value="blue">Blue
                     </div>
-                    <div class="col-lg-3 col-sm-6">
-                            Helooooooooooooooooooo
+                    <div>
+                            <input name="Country" list="countries" placeholder="name">
+                            <datalist id="countries">
+                                    <option value="Afghanistan">
+                                    <option value="India">
+                                    <option value="USA">
                     </div>
+            </form>
+            <div class="message">You'll be directed back, now<
+            <button id="submit"><a href="index.html">Click</a></button>
             </div>
     </body>
 </html>
+~
+~
+~
